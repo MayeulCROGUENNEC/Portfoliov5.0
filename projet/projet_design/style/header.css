@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ______________________________Menus ___________________*/
+
+nav {
+    background-color: rgba(50, 50, 50, 0.7);
+    font-size: 18px;
+    font-family: 'Manrope';
+    
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+
+}
+li:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:667px) {
+    nav {
+        font-size: 13px;
+    }
+}
+

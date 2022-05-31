@@ -1,0 +1,401 @@
+@font-face {
+  font-family: "Avenir";
+  src: url('../font/Avenir/AvenirLTStd-Book.otf');
+}
+@font-face {
+  font-family: "CenturyGothic";
+  src: url('../font/century-gothic/CenturyGothic.TTF');
+}
+@font-face {
+  font-family: "CenturyGothicBold";
+  src: url('../font/century-gothic/CenturyGothicBold.ttf');
+}
+@font-face {
+  font-family: "Noway_Noway-Bold.otf";
+  src: url('../font/Noway/Noway-Bold.otf');
+}
+
+body{
+  background-color: #f4f4f4;
+  margin: 0;}
+
+
+a {
+  color: #000;
+}
+
+
+button{
+  background-color: #EDD892;
+  border: none;
+}
+h1{
+
+  font-size: 60px;
+
+}
+h2{
+  font-family: "Noway_Noway-Bold.otf";
+  font-size: 30px;
+
+}
+h3{
+  font-family: "Noway_Noway-Bold.otf";
+  font-size: 24px;
+}
+
+p {
+  font-family: "Avenir";
+  font-size: 16px;}
+/*_____________________________________________________________Header___________________________________________________*/
+a {
+  color: #000;
+}
+
+/* header */
+
+.header {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  font-family: Avenir;
+  top: 0;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  width: 220px;
+  text-decoration: none;
+}
+.header img{
+  padding-left: 25%;
+  margin-top: -8px;
+  position: absolute;
+}
+
+@media (min-width: 1200px) {
+  .header img {
+    padding-left: 1%;
+  }
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+/*__________________________________________________________FIN___Header___________________________________________________*/
+/*____________________________________________________section_inspiration__________________________________________________*/
+
+/*__________________________________________________________section___vidéo___________________________________________________*/
+
+#sectionvidéo{
+  color: #f1f1f1;
+  background-image: url('../img/90e15b87caaaf174136187811d6a11f283b1284c.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+
+}
+
+.content {
+  top: 300px;
+  color: #f1f1f1;
+  width: 80%;
+  margin-left: 5%;
+  text-align: left;
+  padding: 20px;
+}
+.content p {
+  font-size: 25px;
+  font-family: Avenir;
+  margin-top: 20px;
+}
+
+button{
+  background-color: #F1D75D;
+  font-family: Montserrat;
+  font-size: 16px;
+  height: 74px;
+  width: 309px;
+  margin-top: 40px;
+}
+
+@media (min-width: 48em) {
+
+  .content {
+    margin-top: 10%;
+    color: #f1f1f1;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+/*_________________________________________________________FIN_section___vidéo___________________________________________________*/
+/*__________________________________________________________section___gallery___________________________________________________*/
+.
+.mainslider {
+  position: relative;
+  float: left;
+  width: 50px;
+}
+#inspiration{
+  background-color: #84599D;
+  text-align: center;
+  margin-top: 80px;
+  width: 90%;
+  float: left;
+  position: relative;
+  transform: translate(20px, -20px);
+  box-shadow: rgba(0,0,0, 0.25) 20px 20px 20px;
+
+}
+#ouioui{
+  width: 90%;
+  margin-left: 2%;
+  text-align: center;
+}
+.inspiintro{
+  margin-top: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.inspiintro2{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.ingpiintro{
+  margin-top: 5%;
+  width: 90%;
+}
+
+
+
+#inspiration h2{
+  padding-top: 3%;
+}
+
+#descrip p{
+  text-align: center;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  font-size: 28px;
+  font-family: Avenir;
+
+}
+
+
+@media (min-width: 48em) {
+  .
+  .mainslider {
+    position: relative;
+    float: left;
+    width: 50px;
+  }
+  #inspiration{
+    background-color: #84599D;
+    text-align: center;
+    margin-top: 100px;
+    width: 49%;
+    float: left;
+    position: relative;
+    transform: translate(20px, -20px);
+    box-shadow: rgba(0,0,0, 0.25) 20px 20px 20px;
+
+  }
+  #ouioui{
+    width: 49%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 2%;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .inspiintro{
+    margin-top: 4%;
+  }
+  .ingpiintro{
+    margin-top: 5%;
+    width: 90%;
+  }
+  .inspipart1{
+    display: inline;
+  }
+  .inspipart2{
+    display: inline-block;
+  }
+
+
+  #inspiration h2{
+    padding-top: 3%;
+  }
+
+  #descrip p{
+    text-align: center;
+    width: 60%;
+    margin-left: 16%;
+    font-size: 28px;
+    font-family: Avenir;
+  }
+
+
+}
+/*__________________________________________valeurspartager_________________________________*/
+
+#valeurspartager{
+  text-align: center;
+  margin-top: 150px;
+}
+
+#valeurspartager p{
+  margin-top: 50px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#valeurspartager img{
+  margin-top: 50px;
+  width: 80%;
+}
+@media (min-width: 48em) {
+  #valeurspartager img {
+    margin-top: 50px;
+    width: 50%;
+  }
+}
+
+/*_________________________________________pouloulou________________________________________*/
+#pouloulou{
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: #EEE8F2;
+  text-align: center;
+}
+
+#pouloulou h3{
+  margin-top: 30px;
+}
+#pouloulou img{
+  margin-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+
+}
+/* ________________________________________Footer__________________________________________*/

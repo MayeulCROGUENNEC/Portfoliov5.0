@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(32, 32, 32, 1);
+    color: #fff;
+}
+/* _______________________presentation_________________________*/
+#presentation{
+    background-color: #3C3B3B;
+    height: 702px;
+    padding-top: 81px;
+}
+h1{
+    color: #DEDEDE;
+    font-size: 54px;
+    text-align: left;
+}
+.prez{
+    color: #959595;
+    font-size: 20px;
+    margin-top: 3%;
+    text-align: left;
+}
+.blocprez{
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 0%;
+}
+.lemail{
+    background-color: #15C585;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    width: 342px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+.lemail:hover{
+    background-color: #fff;
+    color: #15C585;
+}
+.mail{
+    margin-left: 10%;
+    padding-top: 3%;
+}
+.sausse{
+    text-decoration: none;
+    color: #fff;
+}
+.sausse:hover{
+    text-decoration: none;
+    color: #15C585;
+}
+.iconmail{
+    padding-right: 5%;
+    width: 15%;
+}
+.mayeul{
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 0%;
+}
+
+/* _______________________presentation_Responsive_Mobil________________________*/
+@media (max-width:767px){
+    #presentation{
+        height: 602px;
+    }
+    h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .prez{
+        font-size: 14px;
+        text-align: center;
+    }
+    .lemail{
+        background-color: #15C585;
+        border-radius: 6px;
+        width: 242px;
+        height: 42px;
+        font-size: 13px;
+        margin-top: 5%;
+        margin-left: 18%;
+    }
+    .blocprez{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .iconmail{
+        width: 12%;
+    }
+    .mayeul{
+        width: 35%;
+        margin-top: 10%;
+        margin-left: 32.5%;
+    }
+    .mail{
+        margin-left: 10%;
+        padding-top: 4.5%;
+    }
+}
+/* _______________________presentation_Responsive_Big________________________*/
+@media (min-width:1800px){
+    #presentation{
+        height: 900px;
+    }
+}
+/* _______________________downprojet________________________*/
+#downprojet{
+    color: #DEDEDE;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#downprojet:hover{
+    font-size: 18px;
+}
+
+.dtrav{
+    margin-top: 1%;
+    text-decoration: none;
+    color: #DEDEDE;
+}
+.dtrav:hover{
+    text-decoration: none;
+    color: #DEDEDE;
+}
+/* _______________________downprojet_Big_______________________*/
+@media (min-width:1800px){
+#downprojet{
+    color: #DEDEDE;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+#downprojet:hover{
+    font-size: 18px;
+}
+
+.dtrav{
+    margin-top: 1%;
+    text-decoration: none;
+    color: #DEDEDE;
+}
+.dtrav:hover{
+    text-decoration: none;
+    color: #DEDEDE;
+}
+}
+/* _______________________Lastproj_______________________*/
+#lstprojet{
+    margin-top: 5%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+}
+.lstprojetRight{
+    margin-top: 8%;
+}
+.lstprojetdecal{
+    margin-top: 4%;
+}
+.Prjhove{
+    opacity: 100%;
+}
+.ltimg{
+    width: 100%;
+}
+.Prjhove:hover{
+    opacity: 10%;
+}
+/* _______________________LastprojBig_______________________*/
+@media (min-width:1800px){
+    #lstprojet{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .lstprojetdecal{
+        margin-top: 11%;
+    }
+}
+/* _______________________Lastprojmobil_______________________*/
+@media (max-width:767px){
+    #lstprojet{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .lstprojetdecal{
+        margin-top: 11%;
+    }
+}
+/* _______________________Projet_Dev_et_design_______________________*/
+#projetdev{
+    background-color: #3C3B3B;
+    margin-top: 5%;
+}
+.titproj{
+    text-align: center;
+    padding-top: 5%;
+}
+.projetstruc{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    padding-bottom: 6%;
+}
+.projet3colun{
+    width: 100%;
+    margin-top: 10%;
+}
+#projetdesign {
+    margin-top: 5%;
+}
+/* _______________________Projet_Dev_et_design_Mobil______________________*/
+@media (max-width:767px){
+    .projet3colun{
+        width: 80%;
+    }
+}
