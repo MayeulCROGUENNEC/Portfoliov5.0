@@ -1,35 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgba(32, 32, 32, 1);
     color: #fff;
 }
+
 /* _______________________presentation_________________________*/
-#presentation{
+#presentation {
     background-color: #3C3B3B;
     height: 702px;
     padding-top: 81px;
 }
-h1{
+
+h1 {
     color: #DEDEDE;
     font-size: 54px;
     text-align: left;
 }
-.prez{
+
+.prez {
     color: #959595;
     font-size: 20px;
     margin-top: 3%;
     text-align: left;
 }
-.blocprez{
+
+.blocprez {
     margin-top: 6%;
     margin-left: 6%;
     margin-right: 0%;
 }
-.lemail{
+
+.lemail {
     background-color: #15C585;
     color: #fff;
     text-decoration: none;
@@ -40,46 +45,55 @@ h1{
     margin-top: 5%;
     margin-left: 0%;
 }
-.lemail:hover{
+
+.lemail:hover {
     background-color: #fff;
     color: #15C585;
 }
-.mail{
+
+.mail {
     margin-left: 10%;
     padding-top: 3%;
 }
-.sausse{
+
+.sausse {
     text-decoration: none;
     color: #fff;
 }
-.sausse:hover{
+
+.sausse:hover {
     text-decoration: none;
     color: #15C585;
 }
-.iconmail{
+
+.iconmail {
     padding-right: 5%;
     width: 15%;
 }
-.mayeul{
+
+.mayeul {
     margin-left: 15%;
     width: 70%;
     margin-top: 0%;
 }
 
 /* _______________________presentation_Responsive_Mobil________________________*/
-@media (max-width:767px){
-    #presentation{
+@media (max-width:767px) {
+    #presentation {
         height: 602px;
     }
-    h1{
+
+    h1 {
         font-size: 24px;
         text-align: center;
     }
-    .prez{
+
+    .prez {
         font-size: 14px;
         text-align: center;
     }
-    .lemail{
+
+    .lemail {
         background-color: #15C585;
         border-radius: 6px;
         width: 242px;
@@ -88,137 +102,164 @@ h1{
         margin-top: 5%;
         margin-left: 18%;
     }
-    .blocprez{
+
+    .blocprez {
         margin-left: 6%;
         margin-right: 6%;
     }
-    .iconmail{
+
+    .iconmail {
         width: 12%;
     }
-    .mayeul{
+
+    .mayeul {
         width: 35%;
         margin-top: 10%;
         margin-left: 32.5%;
     }
-    .mail{
+
+    .mail {
         margin-left: 10%;
         padding-top: 4.5%;
     }
 }
+
 /* _______________________presentation_Responsive_Big________________________*/
-@media (min-width:1800px){
-    #presentation{
+@media (min-width:1800px) {
+    #presentation {
         height: 900px;
     }
 }
+
 /* _______________________downprojet________________________*/
-#downprojet{
+#downprojet {
     color: #DEDEDE;
     font-size: 16px;
     margin-left: 5%;
     margin-top: 2%;
 }
-#downprojet:hover{
+
+#downprojet:hover {
     font-size: 18px;
 }
 
-.dtrav{
+.dtrav {
     margin-top: 1%;
     text-decoration: none;
     color: #DEDEDE;
 }
-.dtrav:hover{
+
+.dtrav:hover {
     text-decoration: none;
     color: #DEDEDE;
 }
+
 /* _______________________downprojet_Big_______________________*/
-@media (min-width:1800px){
-#downprojet{
-    color: #DEDEDE;
-    font-size: 16px;
-    margin-left: 5%;
-    margin-top: 0%;
-}
-#downprojet:hover{
-    font-size: 18px;
+@media (min-width:1800px) {
+    #downprojet {
+        color: #DEDEDE;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+
+    #downprojet:hover {
+        font-size: 18px;
+    }
+
+    .dtrav {
+        margin-top: 1%;
+        text-decoration: none;
+        color: #DEDEDE;
+    }
+
+    .dtrav:hover {
+        text-decoration: none;
+        color: #DEDEDE;
+    }
 }
 
-.dtrav{
-    margin-top: 1%;
-    text-decoration: none;
-    color: #DEDEDE;
-}
-.dtrav:hover{
-    text-decoration: none;
-    color: #DEDEDE;
-}
-}
 /* _______________________Lastproj_______________________*/
-#lstprojet{
+#lstprojet {
     margin-top: 5%;
     margin-left: 5.5%;
     margin-right: 5.5%;
 }
-.lstprojetRight{
+
+.lstprojetRight {
     margin-top: 8%;
 }
-.lstprojetdecal{
+
+.lstprojetdecal {
     margin-top: 4%;
 }
-.Prjhove{
+
+.Prjhove {
     opacity: 100%;
 }
-.ltimg{
+
+.ltimg {
     width: 100%;
 }
-.Prjhove:hover{
+
+.Prjhove:hover {
     opacity: 10%;
 }
+
 /* _______________________LastprojBig_______________________*/
-@media (min-width:1800px){
-    #lstprojet{
+@media (min-width:1800px) {
+    #lstprojet {
         margin-left: 15%;
         margin-right: 15%;
     }
-    .lstprojetdecal{
+
+    .lstprojetdecal {
         margin-top: 11%;
     }
 }
+
 /* _______________________Lastprojmobil_______________________*/
-@media (max-width:767px){
-    #lstprojet{
+@media (max-width:767px) {
+    #lstprojet {
         margin-left: 15%;
         margin-right: 15%;
     }
-    .lstprojetdecal{
+
+    .lstprojetdecal {
         margin-top: 11%;
     }
 }
+
 /* _______________________Projet_Dev_et_design_______________________*/
-#projetdev{
+#projetdev {
     background-color: #3C3B3B;
     margin-top: 5%;
 }
-.titproj{
+
+.titproj {
     text-align: center;
     padding-top: 5%;
 }
-.projetstruc{
+
+.projetstruc {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 4%;
     padding-bottom: 6%;
 }
-.projet3colun{
+
+.projet3colun {
     width: 100%;
     margin-top: 10%;
 }
+
 #projetdesign {
     margin-top: 5%;
 }
+
 /* _______________________Projet_Dev_et_design_Mobil______________________*/
-@media (max-width:767px){
-    .projet3colun{
+@media (max-width:767px) {
+    .projet3colun {
         width: 80%;
     }
 }

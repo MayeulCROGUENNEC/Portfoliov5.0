@@ -1,33 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgba(32, 32, 32, 1);
     color: #fff;
 }
+
 /* _______________________projet_________________________*/
-#projet{
+#projet {
     padding-top: 12%;
     margin-left: 5%;
     margin-right: 5%;
     text-align: left;
 }
-.textside{
+
+.textside {
     margin-right: 10%;
 }
-.imgside{
+
+.imgside {
     margin-top: 4%;
 }
-h1{
+
+h1 {
     font-size: 54px;
 }
-p{
+
+p {
     margin-top: 7%;
     font-size: 20px;
 }
-.lemail{
+
+.lemail {
     background-color: #15C585;
     color: #fff;
     text-decoration: none;
@@ -38,39 +44,48 @@ p{
     margin-top: 10%;
     margin-left: 0%;
 }
-.lemail:hover{
+
+.lemail:hover {
     background-color: #fff;
     color: #15C585;
 }
-.mail{
+
+.mail {
     margin-left: 10%;
     padding-top: 3%;
 }
-.sausse{
+
+.sausse {
     text-decoration: none;
     color: #fff;
 }
-.sausse:hover{
+
+.sausse:hover {
     text-decoration: none;
     color: #15C585;
 }
-.iconmail{
+
+.iconmail {
     padding-right: 5%;
     width: 15%;
 }
-.imgprojet{
+
+.imgprojet {
     width: 100%;
 }
+
 /* _______________________projet_Responsive_Mobil________________________*/
-@media (max-width:767px){
-    #projet{
+@media (max-width:767px) {
+    #projet {
         padding-top: 30%;
         text-align: center;
     }
-    .imgside{
+
+    .imgside {
         margin-top: 8%;
     }
-    .lemail{
+
+    .lemail {
         background-color: #15C585;
         border-radius: 6px;
         width: 150px;
@@ -79,10 +94,12 @@ p{
         margin-top: 5%;
         margin-left: 32%;
     }
-    .iconmail{
+
+    .iconmail {
         width: 12%;
     }
-    .mail{
+
+    .mail {
         margin-left: 10%;
         padding-top: 4.5%;
     }
