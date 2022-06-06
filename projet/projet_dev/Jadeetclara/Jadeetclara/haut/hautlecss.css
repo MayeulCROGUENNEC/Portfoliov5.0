@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Syne;
+    src: url(../font/syrine_typo_de_base/otf/Syne-Regular.otf);
+}
+
+@font-face {
+    font-family: Doppelganger;
+    src: url(../font/gros_titres_doppelganger/Doppelganger_Display.otf);}
+
+body {background: #EEEBE7 !important;}
+
+
+/* _______________________________________body_____________________________________________________________________________ */
+.intitulé {
+    padding-top: 8%;
+    color: #3B3939;
+    font-family: Doppelganger;
+    font-size: 80px;
+    text-align: center;
+}
+.descriprodui {
+    padding-top: 5%;
+    color: #2E4122;
+    font-family: Syne;
+    font-size: 30px;
+    text-align: center;
+}
+.lagrillephoto {
+    padding-top: 5%;
+}
+.nextoicon {
+    background: #EEEBE7 !important;
+    margin-bottom: 150px;
+    margin-top: 200px;}
+
+.downicon{
+    margin-left: 70%;
+    width: 196px;
+    height: 196px;
+}
+/* _______________________projet_Responsive_Mobil________________________*/
+@media (max-width:767px){
+    .intitulé {
+        padding-top: 20%;
+    }
+    .downicon{
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+        width: 110px;
+        height: 110px;
+    }
+}
